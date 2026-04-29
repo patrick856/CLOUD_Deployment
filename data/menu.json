@@ -1,0 +1,198 @@
+[
+  {
+    "category": "Coffee",
+    "image": "/images/Menu_Hot_Coffee.webp",
+    "subcategories": [
+      {
+        "name": "Hot Coffee",
+        "note": "Some items available in M/L sizes",
+        "items": [
+          { "name": "Espresso","priceML": { "M": 50, "L": 75 } },
+          { "name": "Espresso Macchiato", "price": 80 },
+          { "name": "Flat White", "price": 95 },
+          { "name": "Cortado", "price": 80 },
+          { "name": "Latte", "priceML": { "M": 90, "L": 100 } },
+          { "name": "Cappuccino", "priceML": { "M": 90, "L": 100 } },
+          { "name": "Spanish Latte", "priceML": { "M": 100, "L": 120 } },
+          { "name": "Mocha", "priceML": { "M": 100, "L": 120 } },
+          { "name": "White Mocha", "priceML": { "M": 100, "L": 120 } },
+          { "name": "Caramel Macchiato", "priceML": { "M": 100, "L": 120 } },
+          { "name": "Espresso Affogato", "price": 95 },
+          { "name": "Americano", "price": 80 },
+          { "name": "Pistachio Latte", "priceML": { "M": 110, "L": 130 } },
+          { "name": "Nutella Latte", "priceML": { "M": 110, "L": 130 } },
+          { "name": "Lotus Biscoff Latte", "priceML": { "M": 110, "L": 130 } }
+        ]
+      },
+      {
+        "name": "Iced Coffee",
+        "items": [
+          { "name": "Iced Americano", "price": 90 },
+          { "name": "Iced Latte", "price": 100 },
+          { "name": "Iced Caramel Macchiato", "price": 130 },
+          { "name": "Iced White Mocha", "price": 135 },
+          { "name": "Iced Spanish Latte", "price": 135 },
+          { "name": "Espresso Orange", "price": 135 },
+          { "name": "Espresso Tonic", "price": 135 },
+          { "name": "Iced Oreo Latte", "price": 130 }
+        ]
+      },
+      {
+        "name": "Flavoured Latte",
+        "note": "Available in M/L sizes",
+        "items": [
+          { "name": "Caramel", "priceML": { "M": 100, "L": 120 } },
+          { "name": "Salted Caramel", "priceML": { "M": 100, "L": 120 } },
+          { "name": "Toffee Nut", "priceML": { "M": 100, "L": 120 } },
+          { "name": "Hazelnut", "priceML": { "M": 100, "L": 120 } },
+          { "name": "Vanilla", "priceML": { "M": 100, "L": 120 } }
+        ]
+      },
+      {
+        "name": "Iced Flavored Latte",
+        "items": [
+          { "name": "Iced Pistachio Latte", "price": 160 },
+          { "name": "Iced Lotus Biscoff Latte", "price": 160 },
+          { "name": "Iced Nutella Latte", "price": 160 },
+          { "name": "Iced Toffee Nut Latte", "price": 130 },
+          { "name": "Iced Hazelnut Latte", "price": 120 },
+          { "name": "Iced Vanilla Latte", "price": 130 },
+          { "name": "Iced Caramel Latte", "price": 130 },
+          { "name": "Iced Salted Caramel Latte", "price": 130 }
+        ]
+      },
+      {
+        "name": "Frappe",
+        "items": [
+          { "name": "Classic Frappe", "price": 120 },
+          { "name": "Pistachio Frappe", "price": 160 },
+          { "name": "Nutella Frappe", "price": 160 },
+          { "name": "Lotus Frappe", "price": 160 },
+          { "name": "Salted Caramel Frappe", "price": 140 },
+          { "name": "Caramel Frappe", "price": 140 },
+          { "name": "Chocolate Frappe", "price": 140 },
+          { "name": "Vanilla Frappe", "price": 140 },
+          { "name": "Toffee Nut Frappe", "price": 140 },
+          { "name": "Hazelnut Frappe", "price": 140 },
+          { "name": "Oreo Frappe", "price": 150 },
+          { "name": "Tiramisu Frappe", "price": 180 }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Matcha & Tea",
+    "image": "/images/featured_2.webp",
+    "subcategories": [
+      {
+        "name": "Iced Matcha",
+        "items": [
+          { "name": "Matcha Latte", "price": 100 },
+          { "name": "Cloud Matcha Latte", "price": 120 },
+          { "name": "Coconut Matcha Latte", "price": 140 },
+          { "name": "Spanish Matcha Latte", "price": 140 },
+          { "name": "Matcha Vanilla Latte", "price": 140 },
+          { "name": "Matcha Affogato", "price": 100 },
+          { "name": "Strawberry Matcha Latte", "price": 140 },
+          { "name": "Mango Matcha Latte", "price": 140 },
+          { "name": "Peach Matcha Latte", "price": 140 },
+          { "name": "Matcha Frappe", "price": 150 }
+        ]
+      },
+      {
+        "name": "Hot Matcha",
+        "items": [
+          { "name": "Matcha Latte", "price": 100 },
+          { "name": "Matcha Tea", "price": 90 },
+          { "name": "Spanish Matcha Latte", "price": 120 },
+          { "name": "Matcha Coconut Latte", "price": 125 },
+          { "name": "Strawberry Matcha Latte", "price": 130 },
+          { "name": "Mango Matcha Latte", "price": 130 },
+          { "name": "Peach Mango Latte", "price": 130 }
+        ]
+      },
+      {
+        "name": "Hot Drinks",
+        "items": [
+          { "name": "Hot Chocolate", "price": 140 },
+          { "name": "Apple Cider", "price": 90 },
+          { "name": "Tea Selection", "price": 70 }
+        ]
+      },
+      {
+        "name": "Iced Tea",
+        "note": "Available in: Strawberry, Passion Fruit, Mango, Peach",
+        "items": [
+          { "name": "Iced Tea", "price": 100 }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cold Drinks",
+    "image": "/images/featured_1.webp",
+    "subcategories": [
+      {
+        "name": "Sunshine",
+        "note": "Available in: Strawberry, Passion Fruit, Peach, Pineapple, Blueberry, Lemon Mint, Watermelon, Raspberry",
+        "items": [
+          { "name": "Sunshine", "price": 120 }
+        ]
+      },
+      {
+        "name": "Fresh Juice",
+        "items": [
+          { "name": "Orange", "price": 100 },
+          { "name": "Lemon", "price": 100 },
+          { "name": "Lemon Mint", "price": 100 }
+        ]
+      },
+      {
+        "name": "Milk Shakes",
+        "items": [
+          { "name": "Pistachio Milk Shake", "price": 170 },
+          { "name": "Nutella Milk Shake", "price": 170 },
+          { "name": "Lotus Biscoff Milk Shake", "price": 170 },
+          { "name": "Oreo Milk Shake", "price": 150 },
+          { "name": "Banana Milk Shake", "price": 140 },
+          { "name": "Peach Milk Shake", "price": 140 },
+          { "name": "Caramel Milk Shake", "price": 140 },
+          { "name": "Strawberry Milk Shake", "price": 140 },
+          { "name": "Chocolate Milk Shake", "price": 140 },
+          { "name": "Vanilla Milk Shake", "price": 140 },
+          { "name": "Blueberry Milk Shake", "price": 140 }
+        ]
+      },
+      {
+        "name": "Red Bull",
+        "note": "Available in: Strawberry, Passion Fruit, Peach, Pineapple, Blueberry, Lemon Mint, Watermelon, Raspberry",
+        "items": [
+          { "name": "Red Bull", "price": 140 }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Food",
+    "image": "/images/Menu_Hot_Coffee.webp",
+    "subcategories": [
+      {
+        "name": "Sandwiches",
+        "items": [
+          { "name": "Smoked Turkey Ciabatta", "price": 160 },
+          { "name": "Turkey Lobes Ciabatta", "price": 160 },
+          { "name": "Smoked Turkey Croissant", "price": 160 },
+          { "name": "Turkey Lobes Croissant", "price": 160 }
+        ]
+      },
+      {
+        "name": "Yogurt Bowls",
+        "items": [
+          { "name": "Tropical", "price": 160 },
+          { "name": "Fruit", "price": 160 },
+          { "name": "Apple Cinnamon", "price": 160 }
+        ]
+      }
+    ]
+  }
+]
