@@ -6,6 +6,7 @@
 
   /* Typography */
   --font-main: 'Super Kidpop', sans-serif;
+  --font-text: 'Silent People', sans-serif;
 
   /* Font Sizes */
   --fs-xs: 12px;
@@ -33,6 +34,14 @@
 @font-face {
   font-family: 'Super Kidpop';
   src: url('../fonts/Super Kidpop.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Silent People';
+  src: url('../fonts/Silent People.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -167,7 +176,7 @@ p {
 .nav-menu {
   display: none;
   list-style: none;
-  margin-top: var(--space-4);
+  margin: var(--space-4) 0;
   padding: 0;
   flex-direction: column;
   gap: var(--space-3);
@@ -177,6 +186,7 @@ p {
   text-decoration: none;
   color: var(--cream);
   font-size: var(--fs-md);
+  font-family: var(--font-text);
 }
 
 .nav-menu.active {
@@ -217,6 +227,10 @@ footer::before {
 .footer-links {
   display: flex;
   gap: var(--space-7);
+}
+
+.footer-links a {
+  font-family: var(--font-text);
 }
 
 .footer-links-col {
@@ -325,6 +339,7 @@ section {
   align-items: center;
   justify-content: center;
   margin-top: var(--space-4);
+  font-family: var(--font-text);
 }
 
 .about-text img {
@@ -601,6 +616,9 @@ section {
 
 .subcategory {
   margin-bottom: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subcategory-title {
@@ -620,6 +638,8 @@ section {
   display: flex;
   flex-direction: column;
   gap: var(--space-1);
+  max-width: 400px;
+  width: 100%;
 }
 
 .menu-item {
@@ -627,6 +647,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 0 var(--space-2);
+  font-family: var(--font-text);
 }
 
 .item-name {
@@ -714,6 +735,7 @@ section {
   margin-left: 10px;
   line-height: 13px;
   margin-bottom: 0;
+  font-family: var(--font-text);
 }
 
 
